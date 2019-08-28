@@ -1,0 +1,82 @@
+.maincontainer {
+  height: 1000px;
+  width: 100%;
+  background-color: #dee2e6;
+  position: absolute;
+}
+h1.header {
+  /* float: left; */
+  /* margin-left: 48px; */
+  // margin-right: 1529px;
+  /* float: right; */
+  font-family: initial;
+
+  margin-right: 1188px;
+}
+.first-container {
+  height: 360px;
+  background-color: white;
+  /* margin-top: 29px; */
+  /* position: relative; */
+  /* width: 99%; */
+  margin: 23px;
+}
+.card {
+  width: 30rem;
+}
+span.card-one {
+  font-size: x-large;
+  font-weight: 500;
+}
+.card-sec {
+  width: 314px;
+  float: left;
+}
+.icon {
+  float: left;
+
+  height: 100px;
+  width: 100px;
+  margin-top: -11px;
+  margin-left: 24px;
+}
+img {
+  height: 89px;
+}
+
+img.height {
+  height: 72px;
+}
+
+span.card-one {
+  font-size: large;
+  font-weight: 400;
+  color: grey;
+}
+
+h1.mgr-name {
+  color: cornflowerblue;
+  font-size: 41px;
+  font-weight: 200;
+}
+
+tr.table-head {
+  color: gray;
+}
+
+th.leave-type {
+  color: cornflowerblue;
+}
+.vertical {
+  background-color: #dee2e6;
+  height: 33px;
+  width: 1px;
+  margin-top: 6px;
+}
+
+//collapse pannel
+
+.expansion {
+  background-color: white;
+  margin: 0px 23px;
+}
