@@ -3,15 +3,14 @@
   width: 100%;
   background-color: #dee2e6;
   position: absolute;
+  overflow: scroll;
 }
 h1.header {
-  /* float: left; */
-  /* margin-left: 48px; */
-  // margin-right: 1529px;
-  /* float: right; */
-  font-family: initial;
-
-  margin-right: 1188px;
+  font-family: inherit;
+  margin-right: 1080px;
+  font-size: 24px;
+  color: #a9acaf;
+  margin-top: 4px;
 }
 .first-container {
   height: 360px;
@@ -21,15 +20,15 @@ h1.header {
   /* width: 99%; */
   margin: 23px;
 }
-.card {
-  width: 30rem;
-}
+// .card {
+//   width: 30rem;
+// }
 span.card-one {
   font-size: x-large;
   font-weight: 500;
 }
 .card-sec {
-  width: 314px;
+  width: 221px;
   float: left;
 }
 .icon {
@@ -37,15 +36,16 @@ span.card-one {
 
   height: 100px;
   width: 100px;
-  margin-top: -11px;
-  margin-left: 24px;
+  margin-top: 0px;
+  margin-left: 23px;
 }
+
 img {
-  height: 89px;
+  height: 62px;
 }
 
 img.height {
-  height: 72px;
+  height: 62px;
 }
 
 span.card-one {
@@ -77,7 +77,20 @@ span.card-minititle {
   color: green;
   font-size: 24px;
 }
-
+.col3Card{
+  padding: 10px;
+    margin-right: 10px;
+    max-width: 23% !important;
+    float: left;
+    display: inline-flex;
+}
+.col6Card{
+  padding: 10px;
+    margin-right: 10px;
+    max-width: 48% !important;
+    float: left;
+    display: inline-flex;
+}
 
 //collapse pannel
 
@@ -88,4 +101,73 @@ span.card-minititle {
 
 mat-sidenav-container.main-sidenav-container.mat-drawer-container.mat-sidenav-container.mat-drawer-transition {
   height: 1077px;
+}
+.mat-sidenav-fixed {
+  position: fixed;
+  width: 10%;
+}
+
+.btn-group-vertical.btn-sidenav {
+  width: 195px;
+  background-color: white;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+span.btn-btn {
+  padding: 16px 83px;
+  border-bottom-color: #f5f3f300;
+  background-color: #f5f4f48c;
+  cursor: pointer;
+}
+span.btn-btn:hover{
+  background-color: skyblue ;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 16px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  background-color: #002046;
+}
+img.hamberger {
+  margin-top: 0px;
+  margin-left: 13px;
+  background-color: #002046;
+  height: 32px;
+}
+img.zlogo {
+  background-color:  #002046;
+  height: 26px;
+}
+.vertical-line {
+  background-color: white;
+  height: 57px;
+  width: 1px;
+  background-color: #074a92;
+  margin-left: 10px;
+}
+input.filter {
+  border: none;
+  /* margin-left: 5px; */
+  /* margin-right: -45px; */
+  background-color:#002046;
+}
+img.rounded-circle.img-round {
+  height: 119px;
+  margin-left: -28px;
+}
+
+label.lbl-name {
+  color: #8a5005;
+  font-size: 23px;
+  font-weight: 400;
+  margin-left: 34px;
 }

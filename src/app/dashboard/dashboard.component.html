@@ -1,8 +1,19 @@
 <div class="final">
   <mat-toolbar  class="mat-elevation-z6" color="primary">
-  <button mat-icon-button (click)="opened = !opened">
-    <mat-icon>menu</mat-icon>
-    </button> Angular Material 2 App
+    <img class="zlogo" src="assets/ztlogo1.png">
+    <div class="vertical-line">
+
+      </div>
+  <img class="hamberger"(click)="opened = !opened" src="assets/ham.png">&nbsp;
+  <div class="vertical-line">
+
+    </div>&nbsp;&nbsp;
+    <mat-form-field>
+        <input class="filter" matInput  placeholder=" Team Member Search">
+      </mat-form-field>
+
+
+
 </mat-toolbar>
 <mat-sidenav-container class="main-sidenav-container" (backdropClick)="opened = !opened">
 <mat-sidenav [mode]="mode"
@@ -10,8 +21,19 @@
             [fixedInViewport]="true"
             [fixedTopGap]="layoutGap">
             <button mat-button (click)="opened = !opened">
-              Hello from Sidenav-Content
+
             </button>
+            <img class="rounded-circle img-round" src="assets/24px.svg"><br/>
+            <label class="lbl-name">Admin manju</label>
+            <div class="btn-group-vertical btn-sidenav">
+                <span class="btn-btn">HRMS</span>
+                <span class="btn-btn">Projects</span>
+                <span class="btn-btn" >Task Boards</span>
+                <span class="btn-btn">Chats</span>
+                <span class="btn-btn">Knowledge base</span>
+                <span class="btn-btn">Reports</span>
+                <span class="btn-btn">Settings</span>
+                </div>
   </mat-sidenav>
 
 <!-- Dashboard design -->
@@ -40,11 +62,13 @@
   </li>
 </ul>
 <div class="container-fluid maincontainer">
-
+<mat-layout>
   <div class="first-container">
-    <div class="row">
-      <div class="first-card col-md-3">
-        <div class="card" style="width: 30rem;">
+    <div style="min-width: 100%;">
+
+
+      <div class="col3Card">
+        <div class="card" style="width: 25rem;">
           <div class="card-body">
             <div class="card-sec">
               <span class="card-one">MY DEPARTMENT(S) </span><br />
@@ -59,8 +83,8 @@
           </div>
         </div>
       </div>
-      <div class="second-card col-md-3">
-        <div class="card" style="width: 30rem; height: 13rem;">
+      <div class="col3Card">
+        <div class="card" style="width: 25rem; height: 16rem;">
 
           <div class="card-body">
             <div class="card-sec">
@@ -75,7 +99,7 @@
           </div>
         </div>
       </div>
-      <div class="third-card col-md-6">
+      <div class="col6Card">
         <div class="card" style="width: 60rem; height: 20rem;">
           <div class="card-body">
             <table class="table table-striped" style="margin-top:20px;">
@@ -119,9 +143,11 @@
           </div>
         </div>
       </div>
+
+
     </div>
   </div>
-
+</mat-layout>
   <!-- ////////expansion pannel -->
 
   <div class="expansion">
