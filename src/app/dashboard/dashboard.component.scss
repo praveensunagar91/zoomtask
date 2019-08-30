@@ -10,7 +10,7 @@ h1.header {
   margin-right: 1080px;
   font-size: 24px;
   color: #a9acaf;
-  margin-top: 4px;
+  margin-top: 10px;
 }
 .first-container {
   height: 360px;
@@ -35,7 +35,7 @@ span.card-one {
   float: left;
 
   height: 100px;
-  width: 100px;
+  width: 80px;
   margin-top: 0px;
   margin-left: 23px;
 }
@@ -161,8 +161,10 @@ input.filter {
   background-color:#002046;
 }
 img.rounded-circle.img-round {
-  height: 119px;
-  margin-left: -28px;
+  height: 161px;
+  margin-left: -21px;
+  width: 98px;
+  margin-top: 11px;
 }
 
 label.lbl-name {
@@ -171,3 +173,7 @@ label.lbl-name {
   font-weight: 400;
   margin-left: 34px;
 }
+ul.nav.justify-content-end {
+  height: 5%;
+}
+
